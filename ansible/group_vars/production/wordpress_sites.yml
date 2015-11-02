@@ -1,0 +1,35 @@
+# Documentation: https://github.com/roots/trellis#wordpress-sites
+wordpress_sites:
+  samfujera.cz:
+    site_hosts:
+      - samfujera.cz
+    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+    repo: git@github.com:pavelsuba/samfujera.git
+    branch: master
+    subtree_path: site # relative path to your Bedrock/WP directory in your repo (above) if it is not the root (like the roots-example-project structure)
+    multisite:
+      enabled: false
+      subdomains: false
+    ssl:
+      enabled: false
+    cache:
+      enabled: true
+      duration: 10s
+    system_cron: true
+    env:
+      wp_home: http://samfujera.cz
+      wp_siteurl: http://samfujera.cz/wp
+      wp_env: production
+      db_name: samfujera_prod
+      db_user: samfujera_dbuser
+      db_password: +Y79ZfDau*0AseHdDafa
+      # Generate your keys here: https://api.wordpress.org/secret-key/1.1/salt/
+      # These CANNOT contain the characters "{%" in succession
+      auth_key: "f0N`yVq2KT6-I)OW?4e5uJPun=c_|QL<4e.G_IX:.h-RimH7Qcc^4l.{Gj7I5?mA"
+      secure_auth_key: "5O_s.$:Pt%Dc*c%3r1*9Ax;e)jR_JIZ,7+1|ky=iLXk7Fk]~T2@;M8~lud7yK+<o"
+      logged_in_key: "M-,_.V6l/ZT!!{, ?1mW2YJA`!)E/YYlm2%7FwzM#ZK@.ju9f+<(-aI]ce5?NHwS"
+      nonce_key: "UFq5{yY~|_%@wkxc<-?0mX;2smHKLu:p<>p+t=EDj<EJce|lR(vRoeV][)iW-<$:"
+      auth_salt: "@p>QoZ([3>k9>=xC{R_+oZ CRP9*Pyv`jCfH-mV}Zvc$)oCi&#}QT%Pt>P|XL1EL"
+      secure_auth_salt: "gK-w8tiSC+twR4T#WEPE-]zK&)ouoe)^;9sV runSP^r0#*=M20T#KCOp9)_@r9S"
+      logged_in_salt: "}{,;01XinTIEj;*In;D6%*88@iuJdz!U(.Cs**1o,$14 Nbdt7+:10jyX~8gz|_q"
+      nonce_salt: "cf|z=Z-XpD0`+SEJP`BFi3)kH#7B/7TNUXft]Z:zwHh#^{:avY2AN!ao 0?F^&e:"
