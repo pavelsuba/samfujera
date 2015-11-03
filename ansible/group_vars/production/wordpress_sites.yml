@@ -17,8 +17,8 @@ wordpress_sites:
       duration: 10s
     system_cron: true
     env:
-      wp_home: http://samfujera.cz
-      wp_siteurl: http://samfujera.cz/wp
+      wp_home: http://www.samfujera.cz
+      wp_siteurl: http://www.samfujera.cz/wp
       wp_env: production
       db_name: samfujera_prod
       db_user: samfujera_dbuser
