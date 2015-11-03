@@ -1,0 +1,24 @@
+[Nov 02 2015 23:34:54] ERROR_HANDLER 
+Number:  2
+Message: chmod(): No such file or directory
+File:    /srv/www/samfujera.cz/current/web/app/plugins/duplicator/classes/utility.php
+Line:    321
+-------------------------------------------- 
+[Nov 02 2015 23:35:16] ERROR_HANDLER 
+Number:  2
+Message: mkdir(): File exists
+File:    /srv/www/samfujera.cz/current/web/app/plugins/duplicator/classes/utility.php
+Line:    312
+-------------------------------------------- 
+[Nov 02 2015 23:35:16] ERROR_HANDLER 
+Number:  2
+Message: mkdir(): File exists
+File:    /srv/www/samfujera.cz/current/web/app/plugins/duplicator/classes/utility.php
+Line:    317
+-------------------------------------------- 
+[Nov 02 2015 23:35:16] ERROR_HANDLER 
+Number:  2
+Message: chmod(): No such file or directory
+File:    /srv/www/samfujera.cz/current/web/app/plugins/duplicator/classes/utility.php
+Line:    321
+-------------------------------------------- 
