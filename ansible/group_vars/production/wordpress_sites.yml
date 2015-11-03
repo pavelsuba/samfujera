@@ -2,6 +2,7 @@
 wordpress_sites:
   samfujera.cz:
     site_hosts:
+      - www.samfujera.cz
       - samfujera.cz
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:pavelsuba/samfujera.git
