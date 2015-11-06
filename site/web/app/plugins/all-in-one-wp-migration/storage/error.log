@@ -928,3 +928,243 @@ Message: usort(): Array was modified by the user comparison function
 File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
 Line:    21
 -------------------------------------------- 
+[Nov 06 2015 12:43:22] ERROR_HANDLER 
+Number:  2
+Message: rename(/tmp/event_espresso-cs_CZ.tmp,/srv/www/samfujera.cz/current/web/app/plugins/event-espresso-core-reg/languages/event_espresso-cs_CZ.mo): Operation not permitted
+File:    /srv/www/samfujera.cz/current/web/app/plugins/event-espresso-core-reg/core/helpers/EEH_Sideloader.helper.php
+Line:    152
+-------------------------------------------- 
+[Nov 06 2015 12:43:22] ERROR_HANDLER 
+Number:  2
+Message: unlink(/tmp/event_espresso-cs_CZ.tmp): No such file or directory
+File:    /srv/www/samfujera.cz/current/web/app/plugins/event-espresso-core-reg/core/helpers/EEH_Sideloader.helper.php
+Line:    166
+-------------------------------------------- 
+[Nov 06 2015 12:45:56] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:46:08] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:52:22] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:52:53] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:53:35] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:53:46] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:53:50] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:53:56] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:54:00] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:54:36] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:54:45] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:54:54] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:55:12] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:55:39] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:56:00] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:57:23] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:57:54] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:57:56] ERROR_HANDLER 
+Number:  2
+Message: include(/srv/www/samfujera.cz/current/web/app/wp-cache-config.php): failed to open stream: No such file or directory
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    51
+-------------------------------------------- 
+[Nov 06 2015 12:57:56] ERROR_HANDLER 
+Number:  2
+Message: include(): Failed opening '/srv/www/samfujera.cz/current/web/app/wp-cache-config.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear')
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    51
+-------------------------------------------- 
+[Nov 06 2015 12:57:57] ERROR_HANDLER 
+Number:  2
+Message: include(/srv/www/samfujera.cz/current/web/app/wp-cache-config.php): failed to open stream: No such file or directory
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    51
+-------------------------------------------- 
+[Nov 06 2015 12:57:57] ERROR_HANDLER 
+Number:  2
+Message: include(): Failed opening '/srv/www/samfujera.cz/current/web/app/wp-cache-config.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear')
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    51
+-------------------------------------------- 
+[Nov 06 2015 12:57:58] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:58:06] ERROR_HANDLER 
+Number:  2
+Message: include(/srv/www/samfujera.cz/current/web/app/wp-cache-config.php): failed to open stream: No such file or directory
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    51
+-------------------------------------------- 
+[Nov 06 2015 12:58:06] ERROR_HANDLER 
+Number:  2
+Message: include(): Failed opening '/srv/www/samfujera.cz/current/web/app/wp-cache-config.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear')
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    51
+-------------------------------------------- 
+[Nov 06 2015 12:58:07] ERROR_HANDLER 
+Number:  2
+Message: include(/srv/www/samfujera.cz/current/web/app/wp-cache-config.php): failed to open stream: No such file or directory
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    51
+-------------------------------------------- 
+[Nov 06 2015 12:58:07] ERROR_HANDLER 
+Number:  2
+Message: include(): Failed opening '/srv/www/samfujera.cz/current/web/app/wp-cache-config.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear')
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    51
+-------------------------------------------- 
+[Nov 06 2015 12:58:08] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:58:09] ERROR_HANDLER 
+Number:  2
+Message: include(/srv/www/samfujera.cz/current/web/app/wp-cache-config.php): failed to open stream: No such file or directory
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    51
+-------------------------------------------- 
+[Nov 06 2015 12:58:09] ERROR_HANDLER 
+Number:  2
+Message: include(): Failed opening '/srv/www/samfujera.cz/current/web/app/wp-cache-config.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear')
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    51
+-------------------------------------------- 
+[Nov 06 2015 12:58:10] ERROR_HANDLER 
+Number:  2
+Message: mkdir(): open_basedir restriction in effect. File() is not within the allowed path(s): (/srv/www/:/tmp)
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    2284
+-------------------------------------------- 
+[Nov 06 2015 12:58:10] ERROR_HANDLER 
+Number:  2
+Message: mkdir(): open_basedir restriction in effect. File() is not within the allowed path(s): (/srv/www/:/tmp)
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    2223
+-------------------------------------------- 
+[Nov 06 2015 12:58:10] ERROR_HANDLER 
+Number:  2
+Message: mkdir(): Permission denied
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    2223
+-------------------------------------------- 
+[Nov 06 2015 12:58:24] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 06 2015 12:58:27] ERROR_HANDLER 
+Number:  2
+Message: mkdir(): File exists
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    2282
+-------------------------------------------- 
+[Nov 06 2015 12:58:27] ERROR_HANDLER 
+Number:  2
+Message: mkdir(): open_basedir restriction in effect. File() is not within the allowed path(s): (/srv/www/:/tmp)
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    2284
+-------------------------------------------- 
+[Nov 06 2015 12:58:27] ERROR_HANDLER 
+Number:  2
+Message: mkdir(): open_basedir restriction in effect. File() is not within the allowed path(s): (/srv/www/:/tmp)
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    2223
+-------------------------------------------- 
+[Nov 06 2015 12:58:27] ERROR_HANDLER 
+Number:  2
+Message: mkdir(): Permission denied
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    2223
+-------------------------------------------- 
+[Nov 06 2015 12:59:32] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
