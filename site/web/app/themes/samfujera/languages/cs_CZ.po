@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Sam Fujera Theme\n"
-"POT-Creation-Date: 2015-11-02 00:53+0100\n"
-"PO-Revision-Date: 2015-11-02 00:54+0100\n"
+"POT-Creation-Date: 2015-11-05 21:01+0100\n"
+"PO-Revision-Date: 2015-11-05 21:01+0100\n"
 "Last-Translator: Pavel Suba <pavel@pavelsuba.com>\n"
 "Language-Team: \n"
 "Language: cs_CZ\n"
@@ -18,6 +18,66 @@ msgstr ""
 "X-Generator: Poedit 1.7.6\n"
 "X-Poedit-SearchPath-0: .\n"
 
+#: comments.php:18
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:24
+msgid "Reader Interactions"
+msgstr ""
+
 #: functions.php:9
 msgid "Sam Fujera Theme"
 msgstr "Šablona Sam Fujera"
+
+#: functions.php:78
+msgid "Footer Navigation Menu"
+msgstr ""
+
+#: functions.php:118
+msgid "Home Left"
+msgstr ""
+
+#: functions.php:119
+msgid "This is the home left section."
+msgstr ""
+
+#: functions.php:123
+msgid "Home Middle"
+msgstr ""
+
+#: functions.php:124
+msgid "This is the home middle section."
+msgstr ""
+
+#: functions.php:128
+msgid "Home Right"
+msgstr ""
+
+#: functions.php:129
+msgid "This is the home right section."
+msgstr ""
+
+#: functions.php:174
+msgid "&lsaquo;&lsaquo; Previous Page"
+msgstr "&lsaquo;&lsaquo; Předchozí Stránka"
+
+#: functions.php:175
+msgid "Next Page &rsaquo;&rsaquo;"
+msgstr "Další Stránka &rsaquo;&rsaquo;"
+
+#: gallery-single-template.php:19
+msgid "Download high resolution image"
+msgstr ""
+
+#: gallery-single-template.php:101
+msgid "Sorry, nothing found."
+msgstr ""
+
+#: gallery-single-template.php:120
+msgid "Image"
+msgstr ""
+
+#: gallery-template.php:14
+msgid "Gallery Category"
+msgstr ""

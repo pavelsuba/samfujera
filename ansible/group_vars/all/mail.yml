@@ -1,6 +1,6 @@
 # Documentation: https://github.com/roots/trellis#mail
-mail_smtp_server: smtp.sendgrid.net:587
+mail_smtp_server: email-smtp.eu-west-1.amazonaws.com:587
 mail_admin: pavelsuba@live.com
 mail_hostname: samfujera.cz
-mail_user: info@samfujera.cz
-mail_password: gj2X3O3cjSZJyzks!HTr
+mail_user: AKIAIJ5JI225ZQ6TTNXQ
+mail_password: Ah6ktqfpoqD/EIH5YjfPyMMgxQBFnGDXHM6i42/iHiTb

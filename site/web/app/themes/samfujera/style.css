@@ -902,7 +902,7 @@ img.alignright,
 --------------------------------------------- */
 
 .featured-content .entry {
-	border-bottom: 2px solid #f5f5f5;
+	border-bottom: 1px solid #3f3f3f;
 	margin-bottom: 20px;
 	padding: 0 0 24px;
 }
@@ -991,24 +991,12 @@ img.alignright,
 ---------------------------------------------------------------------------------------------------- */
 
 .site-header {
-	min-height: 140px;
+	//min-height: 140px;
+	height: 100px;
 }
 
 .site-header .wrap {
-	padding: 40px 0;
-}
-
-/* # Site Header Image
----------------------------------------------------------------------------------------------------- */
-#sam-header-img-wrapper {
-	height: 150px;
-    width: 180px;
-}
-
-#sam-header-img-wrapper, #sam-header-img-wrapper.header-img {
-    bottom: 50%;
-    left: 59%;
-    position: absolute;
+	padding: 10px 0;
 }
 
 /* ## Title Area
@@ -1029,7 +1017,6 @@ img.alignright,
 	font-size: 3.2rem;
 	font-weight: 400;
 	line-height: 1.0;
-	margin-left: 20px;
 }
 
 .site-title a,
@@ -1257,7 +1244,6 @@ img.alignright,
 
 .entry {
 	margin-bottom: 10px;
-	padding: 10px 10px;
 }
 
 .content .entry {
@@ -1301,7 +1287,7 @@ p.entry-meta {
 }
 
 .entry-footer .entry-meta {
-	border-top: 2px solid #f5f5f5;
+	border-top: 1px solid #3f3f3f;
 	padding-top: 24px;
 }
 
@@ -1332,8 +1318,8 @@ p.entry-meta {
 }
 
 .archive-pagination li a {
-	background-color: #333;
-	color: #fff;
+	background-color: #3a3a3a;
+	color: #afafaf;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 16px;
@@ -1345,8 +1331,22 @@ p.entry-meta {
 .archive-pagination li a:hover,
 .archive-pagination li a:focus,
 .archive-pagination .active a {
-	background-color: #c3251d;
-	text-decoration: underline;
+	background-color: #d4af37;
+	color: #46443b;
+}
+
+.archive-pagination li .current {
+	background-color: #d4af37;
+	color: #46443b;
+	padding: 8.5px;	
+}
+
+.archive-pagination .active a:hover {
+	color: #fff;
+}
+
+.archive-pagination li .current:hover {
+	color: #fff;	
 }
 
 /* ## Comments
@@ -1373,8 +1373,7 @@ p.entry-meta {
 }
 
 li.comment {
-	background-color: #f5f5f5;
-	border: 2px solid #fff;
+	border: 1px solid #3f3f3f;
 	border-right: 0;
 }
 

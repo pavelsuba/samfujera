@@ -128,3 +128,54 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Home Right', 'samfujera' ),
 	'description' => __( 'This is the home right section.', 'samfujera' ),
 ) );
+
+add_action('genesis_after_comment_form', 'samfujera_after_comments');
+
+//* Change the default venue slug to in Event Espresso 4
+add_filter( 'FHEE__EE_Register_CPTs__register_CPT__rewrite', 'samfujera_custom_venues_slug', 10, 2 );
+function samfujera_custom_venues_slug( $slug, $post_type ) {
+  if ( $post_type == 'espresso_venues' ) {
+    $custom_slug = array( 'slug' => 'mista-konani' );
+    return $custom_slug;
+  }
+  return $slug;
+}
+//* Change the default event category slug to in Event Espresso 4
+add_filter( 'FHEE__EE_Register_CPTs__get_taxonomies__taxonomies', 'samfujera_custom_event_category_slug');
+	function samfujera_custom_event_category_slug( $thearray ) {
+
+		if ( !empty($thearray['espresso_event_categories']) ) {
+			$thearray['espresso_event_categories']['args']['rewrite']['slug'] = 'kategorie-akci';
+			return $thearray;
+		}
+		return $thearray;
+	}
+
+define( 'EE_THEME_FUNCTIONS_LOADED', TRUE );
+ 
+/**
+ * 	espresso_pagination
+ *
+ *  @access 	public
+ *  @return 	void
+ */
+function espresso_pagination() {
+	global $wp_query;
+	$big = 999999999; // need an unlikely integer
+	$pagination = paginate_links( array(
+		'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+		'format' => '?paged=%#%',
+		'current' => max( 1, get_query_var('paged') ),
+		'total' => $wp_query->max_num_pages,
+		'show_all'     => TRUE,
+		'end_size'     => 10,
+		'mid_size'     => 6,
+		'prev_next'    => TRUE,
+		'prev_text'    => __( '&lsaquo;&lsaquo; Previous Page', 'samfujera' ),
+		'next_text'    => __( 'Next Page &rsaquo;&rsaquo;', 'samfujera' ),
+		'type'         => 'list',
+		'add_args'     => FALSE,
+		'add_fragment' => ''
+	));
+	echo ! empty( $pagination ) ? '<div class="archive-pagination pagination"><ul>' . $pagination . '</ul></div>' : '';
+}

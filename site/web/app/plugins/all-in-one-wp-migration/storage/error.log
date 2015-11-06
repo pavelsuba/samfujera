@@ -1,24 +1,930 @@
-[Nov 02 2015 23:34:54] ERROR_HANDLER 
+[Nov 03 2015 15:05:51] ERROR_HANDLER 
 Number:  2
-Message: chmod(): No such file or directory
-File:    /srv/www/samfujera.cz/current/web/app/plugins/duplicator/classes/utility.php
-Line:    321
+Message: fopen(/srv/www/samfujera.cz/current/web/app/plugins/all-in-one-wp-migration/storage/e8u8d7h3exsf/filemap.list): failed to open stream: No such file or directory
+File:    /srv/www/samfujera.cz/current/web/app/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-export-abstract.php
+Line:    179
 -------------------------------------------- 
-[Nov 02 2015 23:35:16] ERROR_HANDLER 
+[Nov 03 2015 15:05:51] ERROR_HANDLER 
 Number:  2
-Message: mkdir(): File exists
-File:    /srv/www/samfujera.cz/current/web/app/plugins/duplicator/classes/utility.php
-Line:    312
+Message: fseek() expects parameter 1 to be resource, boolean given
+File:    /srv/www/samfujera.cz/current/web/app/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-export-abstract.php
+Line:    188
 -------------------------------------------- 
-[Nov 02 2015 23:35:16] ERROR_HANDLER 
+[Nov 03 2015 15:05:51] ERROR_HANDLER 
 Number:  2
-Message: mkdir(): File exists
-File:    /srv/www/samfujera.cz/current/web/app/plugins/duplicator/classes/utility.php
-Line:    317
+Message: fgets() expects parameter 1 to be resource, boolean given
+File:    /srv/www/samfujera.cz/current/web/app/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-export-abstract.php
+Line:    192
 -------------------------------------------- 
-[Nov 02 2015 23:35:16] ERROR_HANDLER 
+[Nov 03 2015 15:05:51] ERROR_HANDLER 
 Number:  2
-Message: chmod(): No such file or directory
-File:    /srv/www/samfujera.cz/current/web/app/plugins/duplicator/classes/utility.php
-Line:    321
+Message: ftell() expects parameter 1 to be resource, boolean given
+File:    /srv/www/samfujera.cz/current/web/app/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-export-abstract.php
+Line:    216
+-------------------------------------------- 
+[Nov 03 2015 15:05:51] ERROR_HANDLER 
+Number:  2
+Message: fclose() expects parameter 1 to be resource, boolean given
+File:    /srv/www/samfujera.cz/current/web/app/plugins/all-in-one-wp-migration/lib/model/class-ai1wm-export-abstract.php
+Line:    218
+-------------------------------------------- 
+[Nov 04 2015 17:24:32] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 04 2015 17:24:34] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 05 2015 09:12:07] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 05 2015 09:12:11] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 05 2015 10:27:46] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'samfujera_after_comments' not found or invalid function name
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/plugin.php
+Line:    503
+-------------------------------------------- 
+[Nov 05 2015 10:28:37] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'samfujera_after_comments' not found or invalid function name
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/plugin.php
+Line:    503
+-------------------------------------------- 
+[Nov 05 2015 10:33:21] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'samfujera_after_comments' not found or invalid function name
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/plugin.php
+Line:    503
+-------------------------------------------- 
+[Nov 05 2015 10:36:40] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'samfujera_after_comments' not found or invalid function name
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/plugin.php
+Line:    503
+-------------------------------------------- 
+[Nov 05 2015 10:36:59] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'samfujera_after_comments' not found or invalid function name
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/plugin.php
+Line:    503
+-------------------------------------------- 
+[Nov 05 2015 14:29:28] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'samfujera_after_comments' not found or invalid function name
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/plugin.php
+Line:    503
+-------------------------------------------- 
+[Nov 05 2015 15:01:08] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/app/plugins/event-espresso-core-reg/core/EE_Front_Controller.core.php
+Line:    112
+-------------------------------------------- 
+[Nov 05 2015 15:01:08] ERROR_HANDLER 
+Number:  2
+Message: session_start(): Cannot send session cache limiter - headers already sent (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/app/plugins/event-espresso-core-reg/core/EE_Session.core.php
+Line:    398
+-------------------------------------------- 
+[Nov 05 2015 15:01:08] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    428
+-------------------------------------------- 
+[Nov 05 2015 15:01:08] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:08] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:08] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:08] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:08] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:08] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/functions.php
+Line:    1011
+-------------------------------------------- 
+[Nov 05 2015 15:01:17] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/app/plugins/event-espresso-core-reg/core/EE_Front_Controller.core.php
+Line:    112
+-------------------------------------------- 
+[Nov 05 2015 15:01:17] ERROR_HANDLER 
+Number:  2
+Message: session_start(): Cannot send session cache limiter - headers already sent (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/app/plugins/event-espresso-core-reg/core/EE_Session.core.php
+Line:    398
+-------------------------------------------- 
+[Nov 05 2015 15:01:17] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    428
+-------------------------------------------- 
+[Nov 05 2015 15:01:17] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:17] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:17] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:17] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:17] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:17] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/functions.php
+Line:    1011
+-------------------------------------------- 
+[Nov 05 2015 15:01:39] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/app/plugins/event-espresso-core-reg/core/EE_Front_Controller.core.php
+Line:    112
+-------------------------------------------- 
+[Nov 05 2015 15:01:39] ERROR_HANDLER 
+Number:  2
+Message: session_start(): Cannot send session cache limiter - headers already sent (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/app/plugins/event-espresso-core-reg/core/EE_Session.core.php
+Line:    398
+-------------------------------------------- 
+[Nov 05 2015 15:01:39] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    428
+-------------------------------------------- 
+[Nov 05 2015 15:01:39] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:39] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:39] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:39] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:39] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:39] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/functions.php
+Line:    1011
+-------------------------------------------- 
+[Nov 05 2015 15:01:47] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/app/plugins/event-espresso-core-reg/core/EE_Front_Controller.core.php
+Line:    112
+-------------------------------------------- 
+[Nov 05 2015 15:01:47] ERROR_HANDLER 
+Number:  2
+Message: session_start(): Cannot send session cache limiter - headers already sent (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/app/plugins/event-espresso-core-reg/core/EE_Session.core.php
+Line:    398
+-------------------------------------------- 
+[Nov 05 2015 15:01:47] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    428
+-------------------------------------------- 
+[Nov 05 2015 15:01:47] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:47] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:47] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:47] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:47] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 15:01:47] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:141)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/functions.php
+Line:    1011
+-------------------------------------------- 
+[Nov 05 2015 17:02:34] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'samfujera_after_comments' not found or invalid function name
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/plugin.php
+Line:    503
+-------------------------------------------- 
+[Nov 05 2015 17:02:34] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'samfujera_after_comments' not found or invalid function name
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/plugin.php
+Line:    503
+-------------------------------------------- 
+[Nov 05 2015 17:03:49] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'samfujera_after_comments' not found or invalid function name
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/plugin.php
+Line:    503
+-------------------------------------------- 
+[Nov 05 2015 17:04:09] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'samfujera_after_comments' not found or invalid function name
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/plugin.php
+Line:    503
+-------------------------------------------- 
+[Nov 05 2015 17:05:42] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'samfujera_after_comments' not found or invalid function name
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/plugin.php
+Line:    503
+-------------------------------------------- 
+[Nov 05 2015 17:07:02] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'samfujera_after_comments' not found or invalid function name
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/plugin.php
+Line:    503
+-------------------------------------------- 
+[Nov 05 2015 18:15:02] ERROR_HANDLER 
+Number:  2
+Message: call_user_func_array() expects parameter 1 to be a valid callback, function 'samfujera_after_comments' not found or invalid function name
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/plugin.php
+Line:    503
+-------------------------------------------- 
+[Nov 05 2015 19:59:17] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:181)
+File:    /srv/www/samfujera.cz/current/web/app/plugins/event-espresso-core-reg/core/EE_Front_Controller.core.php
+Line:    112
+-------------------------------------------- 
+[Nov 05 2015 19:59:17] ERROR_HANDLER 
+Number:  2
+Message: session_start(): Cannot send session cache limiter - headers already sent (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:181)
+File:    /srv/www/samfujera.cz/current/web/app/plugins/event-espresso-core-reg/core/EE_Session.core.php
+Line:    398
+-------------------------------------------- 
+[Nov 05 2015 19:59:17] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:181)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    428
+-------------------------------------------- 
+[Nov 05 2015 19:59:17] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:181)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 19:59:17] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:181)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 19:59:17] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:181)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 19:59:17] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:181)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 19:59:17] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:181)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-wp.php
+Line:    442
+-------------------------------------------- 
+[Nov 05 2015 19:59:17] ERROR_HANDLER 
+Number:  2
+Message: Cannot modify header information - headers already sent by (output started at /srv/www/samfujera.cz/current/web/app/themes/samfujera/functions.php:181)
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/functions.php
+Line:    1011
+-------------------------------------------- 
+[Nov 05 2015 23:13:33] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:13:33] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:13:33] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:13:33] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:13:34] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:13:38] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:13:38] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:14:16] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:14:16] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:16] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:14:16] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:16] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:17] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:14:17] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:17] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:14:17] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:17] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:17] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:17] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:14:17] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:24] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:24] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:14:24] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:24] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:14:24] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:48] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:14:48] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:48] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:14:48] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:48] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:49] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:14:49] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:49] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:14:49] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:49] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:49] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:49] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:14:49] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:53] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:53] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:14:53] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:14:53] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    13
+-------------------------------------------- 
+[Nov 05 2015 23:14:53] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 05 2015 23:21:04] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    32
+-------------------------------------------- 
+[Nov 05 2015 23:21:48] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    32
+-------------------------------------------- 
+[Nov 05 2015 23:22:21] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    32
+-------------------------------------------- 
+[Nov 06 2015 00:10:34] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    28
+-------------------------------------------- 
+[Nov 06 2015 00:10:38] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    28
+-------------------------------------------- 
+[Nov 06 2015 00:11:23] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 06 2015 00:11:23] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 06 2015 00:11:23] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 06 2015 00:11:23] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 06 2015 00:11:24] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 06 2015 00:11:24] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 06 2015 00:11:24] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 06 2015 00:11:24] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 06 2015 00:11:30] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 06 2015 00:11:30] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 06 2015 00:11:30] ERROR_HANDLER 
+Number:  2
+Message: Invalid argument supplied for foreach()
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    27
+-------------------------------------------- 
+[Nov 06 2015 00:57:58] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    34
+-------------------------------------------- 
+[Nov 06 2015 00:57:58] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    34
+-------------------------------------------- 
+[Nov 06 2015 00:57:58] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    34
+-------------------------------------------- 
+[Nov 06 2015 00:57:59] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    34
+-------------------------------------------- 
+[Nov 06 2015 00:57:59] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    34
+-------------------------------------------- 
+[Nov 06 2015 00:58:09] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    34
+-------------------------------------------- 
+[Nov 06 2015 00:58:09] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    34
+-------------------------------------------- 
+[Nov 06 2015 00:58:38] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    34
+-------------------------------------------- 
+[Nov 06 2015 00:58:39] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    34
+-------------------------------------------- 
+[Nov 06 2015 01:06:04] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:06:05] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:06:58] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:06:58] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:06:58] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:06:58] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:06:59] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:07:03] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:07:04] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:07:20] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:08:32] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:08:32] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:08:32] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:08:32] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:08:32] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:09:00] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:09:00] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:09:00] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:09:01] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
+-------------------------------------------- 
+[Nov 06 2015 01:09:01] ERROR_HANDLER 
+Number:  2
+Message: usort(): Array was modified by the user comparison function
+File:    /srv/www/samfujera.cz/current/web/app/uploads/espresso/templates/content-espresso_venues-events.php
+Line:    21
 -------------------------------------------- 
