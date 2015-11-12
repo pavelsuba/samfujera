@@ -3,6 +3,7 @@ wordpress_sites:
   samfujera.cz:
     site_hosts:
       - samfujera.dev
+      - obchod.samfujera.dev
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:pavelsuba/samfujera.git
     site_install: true
@@ -11,8 +12,8 @@ wordpress_sites:
     admin_password: admin
     admin_email: pavelsuba@live.com
     multisite:
-      enabled: false
-      subdomains: false
+      enabled: true
+      subdomains: true
     ssl:
       enabled: false
     cache:
@@ -20,8 +21,9 @@ wordpress_sites:
       duration: 30s
     system_cron: true
     env:
+      domain_current_site: samfujera.dev
       wp_home: http://samfujera.dev
-      wp_siteurl: http://samfujera.dev/wp
+      wp_siteurl: http://samfujera.dev
       wp_env: development
       db_name: example_dev
       db_user: example_dbuser

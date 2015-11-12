@@ -1168,3 +1168,57 @@ Message: gzinflate(): data error
 File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
 Line:    2136
 -------------------------------------------- 
+[Nov 12 2015 13:28:31] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 12 2015 13:28:33] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 12 2015 13:28:36] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 12 2015 13:28:48] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 12 2015 13:28:57] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 12 2015 13:29:09] ERROR_HANDLER 
+Number:  2
+Message: gzinflate(): data error
+File:    /srv/www/samfujera.cz/current/web/wp/wp-includes/class-http.php
+Line:    2136
+-------------------------------------------- 
+[Nov 12 2015 13:29:10] ERROR_HANDLER 
+Number:  2
+Message: unlink(/srv/www/samfujera.cz/current/web/app/cache/blogs/index.html): No such file or directory
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    2109
+-------------------------------------------- 
+[Nov 12 2015 13:29:10] ERROR_HANDLER 
+Number:  2
+Message: unlink(/srv/www/samfujera.cz/current/web/app/cache/meta): No such file or directory
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    151
+-------------------------------------------- 
+[Nov 12 2015 13:29:10] ERROR_HANDLER 
+Number:  2
+Message: unlink(/srv/www/samfujera.cz/current/web/app/cache/supercache): Is a directory
+File:    /srv/www/samfujera.cz/current/web/app/plugins/wp-super-cache/wp-cache.php
+Line:    152
+-------------------------------------------- 
